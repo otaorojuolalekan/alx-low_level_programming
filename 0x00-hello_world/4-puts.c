@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * uses the puts function
  * to output to stdout
