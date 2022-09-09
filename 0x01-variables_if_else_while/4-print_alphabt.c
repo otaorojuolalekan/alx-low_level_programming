@@ -15,6 +15,7 @@ int main(void)
 		while (ch != 101 || ch != 113)
 		{
 			putchar(ch);
+			ch++
 		}
 	}
 	putchar('\n');
