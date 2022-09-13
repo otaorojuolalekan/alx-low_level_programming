@@ -1,52 +1,23 @@
-
 #include "main.h"
 /**
  * jack_bauer - prints time from 00:00 to 23:59
  * Description: same as above
- * Return: int 1 or 0 or -1
+ * Return: void
  */
 
 void jack_bauer(void)
 {
-	char i, j, k, l;
+	int hr, min;
 
-	for (i = '0'; i <= '2'; i++)
+	for (hr = 0; hr < 24; hr++)
 	{
-		if (i < 2)
+		for (min = 0; min < 59; min++)
 		{
-			for (j = '0'; j <= '9'; j++)
-			{
-				for (k = '0'; k <= '5'; k++)
-				{
-					for (l = '0'; l <= '9'; l++)
-					{
-						_putchar(i);
-						_putchar(j);
-						_putchar(':');
-						_putchar(k);
-						_putchar(l);
-						_putchar(10);
-					}
-				}
-			}
-		}
-		else
-		{
-			for (j = '0'; j <= '3'; j++)
-			{
-				for (k = '0'; k <= '5'; k++)
-				{
-					for (l = '0'; l <= '9'; l++)
-					{
-						_putchar(i);
-						_putchar(j);
-						_putchar(':');
-						_putchar(k);
-						_putchar(l);
-						_putchar(10);
-					}
-				}
-			}
+			_putchar((hr / 10) + '0');
+			_putchar((hr % 10) + '0');
+			_putchar(':');
+			_putchar((min / 10) + '0');
+			_putchar((min % 10) + '0');
 		}
 	}
 }
