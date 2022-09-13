@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod u+x $(ls -1t | head -1)
+# chmod u+x $(ls -1t | head -1)
 git add .
-git commit -m "Scripts Created for ALX C programming tasks"
+git commit -m "Scripts Created for 0x02-functions_nested_loops tasks"
 git push
