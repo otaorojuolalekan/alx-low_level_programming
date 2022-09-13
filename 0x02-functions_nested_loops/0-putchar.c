@@ -1,19 +1,20 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - Entry point
- * Description: 0. _putchar task
- * Return: Always zero(0)
- */
+*main - function prints text as output
+*
+*Return:return 0
+*/
 int main(void)
 {
-	putchar(95);
-	putchar(112);
-	putchar(117);
-	putchar(116);
-	putchar(99);
-	putchar(104);
-	putchar(97);
-	putchar(114);
-	putchar('\n');
+	char school[10] = "_putchar";
+
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(school[i]);
+	}
+	_putchar(10);
 	return (0);
 }
