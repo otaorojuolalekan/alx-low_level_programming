@@ -16,7 +16,7 @@ void print_to_98(int n)
 			_putchar(i + '0');
 			_putchar(',');
 			_putchar(' ');
-			_putchar('98');
+			_putchar(98 + '0');
 		}
 	}
 	else if (n < 98)
@@ -26,9 +26,9 @@ void print_to_98(int n)
 			_putchar(i + '0');
 			_putchar('.');
 			_putchar(' ');
-			_putchar('98');
+			_putchar(98 + '0');
 		}
 	}
 	else
-		_putchar('98');
+		_putchar(98 + '0');
 }
