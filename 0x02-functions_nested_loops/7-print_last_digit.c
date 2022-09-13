@@ -15,8 +15,8 @@ int print_last_digit(int num)
 	{
 		if (_putchar(i) == last)
 		{
-			_putchar(last);
-			_putchar(last);
+			_putchar(i);
+			_putchar(i);
 		}
 	}
 	return (0);
