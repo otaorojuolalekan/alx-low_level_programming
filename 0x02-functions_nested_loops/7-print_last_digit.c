@@ -8,5 +8,14 @@
 
 int print_last_digit(int num)
 {
-	return (num % 10);
+	int last = num % 10;
+
+	for (int i = 48; i < 58; i++)
+	{
+		if (_putchar(i) == last)
+		{
+			_putchar(last);
+			_putchar(last);
+		}
+	}
 }
