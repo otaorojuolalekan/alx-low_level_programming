@@ -13,7 +13,9 @@ int print_last_digit(int num)
 
 	for (i = 48; i < 58; i++)
 	{
-		if (_putchar(i) == last)
+		int test = _putchar(i);
+		
+		if (last == test)
 		{
 			_putchar(i);
 			_putchar(i);
