@@ -1,3 +1,4 @@
+
 #include "main.h"
 /**
  * jack_bauer - prints time from 00:00 to 23:59
@@ -7,11 +8,15 @@
 
 void jack_bauer(void)
 {
-	char i, j, k, l;
+	char i, j, k, l, jrange;
 
 	for (i = '0'; i <= '2'; i++)
 	{
-		for (j = '0'; j <= '3'; j++)
+		if (i < 2)
+			jrange = '9';
+		else
+			jrange = '3';
+		for (j = '0'; j <= jrange; j++)
 		{
 			for (k = '0'; k <= '5'; k++)
 			{
