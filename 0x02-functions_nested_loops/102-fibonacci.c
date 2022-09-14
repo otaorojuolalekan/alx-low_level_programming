@@ -18,7 +18,7 @@ int main(void)
 	{
 		printf(", %lu", next);
 		cur += next;
-		cur = next - cur;
+		next = next - cur;
 	}
 	printf("\n");
 	return (0);
