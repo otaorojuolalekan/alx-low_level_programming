@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 1; i < 50; i++)
 	{
-		printf(", %lu", aft);
+		printf(", %lu", next);
 		cur += next;
 		cur = next - cur;
 	}
