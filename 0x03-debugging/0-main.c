@@ -4,7 +4,7 @@
 * @i: input for function positive_or_negative
 * Return: 0 declared by @i
 */
-void positive_or_negative(int i = 0);
+void positive_or_negative(int i);
 
 int main(void)
 {
@@ -14,3 +14,4 @@ int main(void)
 	positive_or_negative(i);
 	return (0);
 }
+
