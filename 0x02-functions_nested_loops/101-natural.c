@@ -6,7 +6,7 @@
  * Return:  (0)
  */
 
-int main()
+int main(void)
 {
 	int i = 0;
 	int m3 = 3;
@@ -16,8 +16,6 @@ int main()
 
 	while (i == 0)
 	{
-h
-	
 		if (m3 < lim)
 		{
 			sum += m3;
