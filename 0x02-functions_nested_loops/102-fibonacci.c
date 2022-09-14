@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
-7 * main - fibonacci 50
+ * main - fibonacci 50
  * Description: fibonacci
- * Return:  (Success)
+ * Return: (Success)
  */
 
 int main(void)
