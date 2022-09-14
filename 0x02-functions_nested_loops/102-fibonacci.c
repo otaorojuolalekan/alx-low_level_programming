@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - fibonacci 50
+7 * main - fibonacci 50
  * Description: fibonacci
  * Return:  (Success)
  */
@@ -17,8 +17,8 @@ int main(void)
 	for (i = 1; i < 50; i++)
 	{
 		printf(", %lu", next);
-		cur += next;
-		next = next - cur;
+		next += cur;
+		cur = next - cur;
 	}
 	printf("\n");
 	return (0);
