@@ -2,10 +2,10 @@
 
 /**
 * main - tests function that prints if integer is positive or negative
-* @i: input for function positive_or_negative
-* Return: 0 declared by @i
+* Return: 0
 */
 void positive_or_negative(int i);
+
 int main(void)
 {
 	int i;
