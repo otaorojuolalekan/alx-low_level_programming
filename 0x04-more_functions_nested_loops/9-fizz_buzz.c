@@ -25,9 +25,15 @@ int main(void)
 			printf(" ");
 		}
 		else if (i % 5 == 0)
-			printf("Buzz ");
+		{
+			printf("Buzz");
+			printf(" ");
+		}
 		else
-			printf("%d ", i);
+		{
+			printf("%d", i);
+			printf(" ");
+		}
 	}
 	printf("\b");
 	printf("\n");
