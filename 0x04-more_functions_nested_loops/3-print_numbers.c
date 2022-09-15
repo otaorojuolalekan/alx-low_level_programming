@@ -4,6 +4,8 @@
  * Return: 0123456789
  */
 
+void _putchar(void);
+
 void print_numbers(void)
 {
 	char ch;
