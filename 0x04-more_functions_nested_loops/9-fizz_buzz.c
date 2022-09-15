@@ -29,6 +29,7 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
+	printf("\b");
 	printf("\n");
 	return (0);
 }
