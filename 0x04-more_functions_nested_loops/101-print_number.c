@@ -14,7 +14,7 @@ int _putchar(char c);
 void print_number(int n)
 {
 
-	unsigned int n1 = 0;
+	unsigned int new = 0;
 
 	if  (n < 0)
 	{
