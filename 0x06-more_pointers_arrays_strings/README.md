@@ -1,7 +1,1 @@
-# 0x06 -More Pointers, Arrays and Strings
-
-## Tasks
-
-## Resource Links
-
-## My thoughts
+0x06. C - More pointers, arrays and strings Directory
