@@ -22,7 +22,3 @@ void print_number(int n)
 
 	_putchar((n1 % 10) + '0');
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
