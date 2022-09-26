@@ -1,5 +1,5 @@
 #!/bin/bash
 # chmod u+x $(ls -1t | head -1)
 git add .
-git commit -m "Added Scripts for 0x06. More Pointers, arrays and string tasks"
+git commit -m "Added Scripts for 0x07. Even More Pointers, arrays and string tasks"
 git push
