@@ -11,14 +11,12 @@
 
 int is_divisible(int num, int iter)
 {
-	if (num == 1)
+	if (num % iter == 0)
 		return (0);
-	if ((num % iter == 0) && num != iter)
-	{
+	if (!(num % iter == 0))
 		return (0);
-		return (is_divisible(num, iter + 1));
-	}
-	return (num);
+	return (is_divisible(num, iter + 1));
+}
 
 /**
  * is_prime_number - returns 1 if is prime or else 0
@@ -28,9 +26,9 @@ int is_divisible(int num, int iter)
 
 int is_prime_number(int n)
 {
-	int check = is_divisible(n);
-
-	if (n == check)
+	if (n == 2 || n == 3)
 		return (1);
-	return (0);
+	if (n <= 1)
+		return (0);
+	return (is_divisible(n, 2));
 }
