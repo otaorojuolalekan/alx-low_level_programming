@@ -9,7 +9,7 @@
  * Return: value if prime, else 0
  */
 
-int is_divisible(num, iter)
+int is_divisible(int num, int iter)
 {
 	if (num == 1)
 		return (0);
