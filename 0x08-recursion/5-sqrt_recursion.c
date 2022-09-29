@@ -25,7 +25,7 @@ int find_sqrt(int num, int q)
 
 int _sqrt_recursion(int n)
 {
-	int check = find_sqrt(n);
+	int check = find_sqrt(n, q);
 
 	if (check != -1)
 		return (check);
