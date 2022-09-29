@@ -28,7 +28,9 @@ int is_divisible(int num, int iter)
 
 int is_prime_number(int n)
 {
-	if (n == is_divisible(n, 1))
+	int check = is_divisible(n);
+
+	if (n == check)
 		return (1);
 	return (0);
 }
