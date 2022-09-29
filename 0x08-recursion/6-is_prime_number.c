@@ -13,16 +13,15 @@ int is_divisible(int num, int iter)
 {
 	if (num == 1)
 		return (0);
-	if (num != iter)
+	if ((num % iter == 0) && num != iter)
 	{
-		if (num % iter == 0)
-			return (0);
+		return (0);
 		return (is_divisible(num, iter + 1));
 	}
 	return (num);
 
 /**
- * is_prime_number -returns 1 if is prime or else 0
+ * is_prime_number - returns 1 if is prime or else 0
  * @n: input required to check
  * Return: 0 or 1
  */
