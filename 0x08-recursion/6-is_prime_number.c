@@ -11,7 +11,7 @@
 
 int is_divisible(int num, int iter)
 {
-	if (num % iter == 0)
+	if (num % iter == 0 && num != iter)
 		return (0);
 	if (!(num % iter == 0))
 		return (0);
