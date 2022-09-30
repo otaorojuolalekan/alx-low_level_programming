@@ -7,7 +7,7 @@
  * Return: Always 0
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int argv1 = atoi(argv[1]);
 	int argv2 = atoi(argv[2]);
