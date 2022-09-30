@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 		printf("%d\n", mul);
 		return (0);
 	}
-	if (argc != 3)
+	else
 	{
 		printf("Error\n");
 		return (1);
