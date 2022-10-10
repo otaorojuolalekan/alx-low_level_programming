@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point for program
  * Return: void but prints The filename of the program being compiled
@@ -9,5 +8,5 @@
 int main(void)
 {
 	printf("%s\n", filename);
-	return(0);
+	return (0);
 }
