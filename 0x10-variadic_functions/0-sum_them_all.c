@@ -4,7 +4,8 @@
 /**
  * sum_them_all - Returns the sum of all its paramters.
  * @n: The number of paramters passed to the function.
- * @...: Indicator for variadic fn - A variable number of paramters to calculate the sum of.
+ * @...: Indicator for variadic fn -
+ *       A variable number of paramters to calculate the sum of.
  *
  * Return: 0 If n is 0 or sum of all parameters.
  */
