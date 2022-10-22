@@ -1,9 +1,0 @@
-#include "main.h"
-
-/**
- * main - Entry point
- * str - input string
- *
- * Return: Length of input string
- */
-
