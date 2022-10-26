@@ -3,7 +3,8 @@
 
 #include <stdio.h>
 #include <unistd.h>
-int _putchar(char);
+#include <stdlib.h>
+int _putchar(int);
 void stringManipulation(char *s);
 int getStringLength(char *str);
 char *_strcat(char *dest, char *src);
