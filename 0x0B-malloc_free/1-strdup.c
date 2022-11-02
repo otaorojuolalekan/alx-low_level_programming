@@ -6,7 +6,7 @@
  * Return: Length of input String
  */
 
-int _strlen(*str)
+int _strlen(char *str)
 {
 	int count = 0;
 
@@ -28,10 +28,10 @@ int _strlen(*str)
 
 char *_strdup(char *str)
 {
-	int len = _strlen(str);
-	int i;
+	int i, len;
 	char *newstr;
 
+	len = _strlen(str);
 	newstr = malloc(sizeof(char) * len + 1);
 
 	if (str == NULL)
