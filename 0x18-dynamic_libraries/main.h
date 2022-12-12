@@ -1,3 +1,6 @@
+#ifndef MAIN.H
+#define MAIN.H
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -23,3 +26,5 @@ int sub(int, int);
 int mul(int, int);
 int div(int, int);
 int mod(int, int);
+
+#endif /* MAIN.H */
