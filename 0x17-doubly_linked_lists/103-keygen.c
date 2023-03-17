@@ -50,3 +50,4 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	password[6] = '\0';
 	printf("%s", password);
 	return (0);
+}
